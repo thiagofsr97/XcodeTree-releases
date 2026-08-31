@@ -95,9 +95,11 @@ Declining costs only that one step, and nothing else in the app changes.
 
 ## Using it
 
+The worktree entries and the windows below appear once a project folder is added.
+
 - **Click** a worktree to open it in whichever app you chose.
-- **Hold ⌥** on one for the full set of actions: every registered app, Finder,
-  Copy Path, and Delete Worktree.
+- **Hold ⌥** on one for the full set of actions: Xcode, every app you registered,
+  Reveal in Finder, Copy Path, and Delete Worktree.
 - **Manage Worktrees** shows every worktree of every project at once, with its
   branch, how far ahead or behind it is, its pull request, whether it is dirty,
   and the disk it holds. Several can be deleted together.
@@ -106,6 +108,8 @@ Declining costs only that one step, and nothing else in the app changes.
 - **Storage** measures what Xcode is holding across derived data, simulators,
   device support and caches, and reclaims what nothing is using. Anything still
   backing a live worktree is marked in use so a bulk clean-up cannot take it.
+  This entry appears only when one of your projects is an Xcode project, as do
+  every other Apple-specific option.
 
 Deleting a worktree removes the directory, and optionally its branch, its
 simulators, and its derived data. The confirmation says exactly what is about to
